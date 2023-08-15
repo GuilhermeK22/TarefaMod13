@@ -1,2 +1,13 @@
-package Tarefa;public class Juridica {
+package Tarefa;
+
+public class Juridica extends Pessoa {
+    private Long cnpj;
+
+    public Long getCnpj() {
+        return cnpj;
+    }
+
+    public void setCnpj(Long cnpj) {
+        this.cnpj = cnpj;
+    }
 }
